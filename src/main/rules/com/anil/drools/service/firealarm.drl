@@ -36,7 +36,7 @@ no-loop true
 end
 
 /*
-	What this rule implies, with respect to the current knowlege session that holds the data(fact).
+	What this rule implies, with respect to the current knowledge session that holds the data(fact).
 	NOTE: The rules fire in the order they are defined in the DRL file.
 		If
 			1. If there exists at least 1 Fire() object in the session 
@@ -55,7 +55,7 @@ lock-on-active true
 end
 
 /*
-	What this rule implies, with respect to the current knowlege session that holds the data
+	What this rule implies, with respect to the current knowledge session that holds the data
 		If
 			1. If there is A Fire() object in the session, then use that and set the 
 			object "room" to the rule-scoped variable $room
@@ -78,7 +78,7 @@ lock-on-active true
 end
 
 /*
-	What this rule implies, with respect to the current knowlege session that holds the data
+	What this rule implies, with respect to the current knowledge session that holds the data
 		If
 			1. If there is A Sprinkler() object with "on" flag set to true and attribute room
 			is same object as the one in the variable $room 
@@ -100,7 +100,7 @@ lock-on-active true
 end
 
 /*
-	What this rule implies, with respect to the current knowlege session that holds the data
+	What this rule implies, with respect to the current knowledge session that holds the data
 		If
 			1. If there is NO Fire() object in the session
 			2. and there is an Alarm() object in the session
